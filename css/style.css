@@ -1,0 +1,116 @@
+/* fonts */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:display=swap");
+
+/* common styles and utilities */
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
+}
+
+.logo {
+  border: 2px solid gray;
+  border-radius: 4px 17px;
+  padding: 10px 15px;
+  box-shadow: 4px 3px #999;
+  /* color: black; */
+
+  /* box-shadow: 0 15px 5px -5px #999; */
+  /* box-shadow: -5px 0 10px -5px #333; */
+}
+
+.logo:hover {
+  border-radius: 15px;
+  box-shadow: 3px 5px rgb(187, 184, 184);
+  transition-duration: 2.3s;
+}
+
+nav {
+  color: black;
+  font-weight: 600;
+}
+
+/*-----------------------------
+         Main css
+    ---------------------------- */
+
+/* header css */
+/* header {
+  color: #e0e0e0;
+  font-weight: 300;
+} */
+
+/* .nav-text {
+  color: white !important;
+} */
+.nav-text:hover {
+  color: #e76f51 !important;
+}
+
+.btn-purchase {
+  background-color: #e76f51;
+  color: white;
+  padding: 10 46px;
+}
+
+.btn-purchase:hover {
+  background-color: rgb(247, 185, 71);
+  /* border: 1px solid red; */
+  color: rgb(14, 11, 11);
+}
+
+/* carousel */
+
+.cm1 {
+  height: 550px;
+}
+.cm2 {
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+}
+main img:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+}
+/* .cm2:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+} */
+
+.bg-car {
+  background-color: #5dbbf1;
+}
+.bg-car2 {
+  background-color: #77dcc5;
+}
+
+/* main css */
+
+.client-section {
+  margin: 100px 0;
+}
+.client-review p {
+  color: #6c6c6c;
+}
+
+.client-review .star,
+.span-default {
+  color: #e76f51;
+}
+
+.client-review .customer-h6 {
+  color: #23a6f0;
+}
+.rounded-client {
+  height: 149px;
+  width: 149px;
+
+  border-radius: 50%;
+}
+
+svg:hover {
+  color: orange;
+  transform: scale(1.5);
+  cursor: pointer;
+}
